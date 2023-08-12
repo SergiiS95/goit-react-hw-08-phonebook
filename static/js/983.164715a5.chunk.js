@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[983],{3983:function(t,e,n){n.r(e),n.d(e,{default:function(){return a}});var r=n(184);function a(){return(0,r.jsx)("div",{children:(0,r.jsx)("h1",{style:{textAlign:"center",fontSize:"36px",marginTop:"30px",width:"350px",marginLeft:"auto",marginRight:"auto"},children:"Welcome to contact storage app!"})})}}}]);
+//# sourceMappingURL=983.164715a5.chunk.js.map
