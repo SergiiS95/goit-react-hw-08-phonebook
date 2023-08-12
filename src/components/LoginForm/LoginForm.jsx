@@ -49,7 +49,7 @@ export const LoginForm = () => {
         </label>
 
         <button tupy="submit" className={css.loginBtn}>
-          Sign Up{' '}
+          Sign In
         </button>
       </form>
     </div>
