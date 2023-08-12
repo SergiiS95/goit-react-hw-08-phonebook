@@ -12,7 +12,7 @@ import PrivateRoute from './PrivateRoute/PrivateRoute';
 const ContactsPage = lazy(() => import('pages/ContactsPage'));
 const LoginPage = lazy(() => import('pages/LoginPage'));
 const RegisterPage = lazy(() => import('pages/RegisterPage'));
-
+const HomePage = lazy(() => import('pages/HomePage'));
 export const App = () => {
   const dispatch = useDispatch();
   const token = useSelector(selectToken);
@@ -50,6 +50,7 @@ export const App = () => {
       <main>
         <Suspense>
           <Routes>
+            <Route path="/" element={<HomePage/>} />
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route
