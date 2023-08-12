@@ -1,0 +1,25 @@
+.userMenuBox {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.userMenuText {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.userMenuButton {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 5px 20px;
+  border: none;
+  font-weight: 600;
+}
+
+.userMenuButton:hover,
+.userMenuButton:focus {
+  background-color: rgb(255, 2, 2);
+  color: #fff;
+  transform: scale(1.1);
+  transition: all 250ms;
+}

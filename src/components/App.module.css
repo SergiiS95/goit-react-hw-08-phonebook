@@ -1,15 +1,29 @@
 .container {
   padding: 25px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.title {
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 20px;
+.navigate {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.navigateBtn {
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
 }
 
-.titleContact {
-  font-size: 30px;
-  font-weight: 700;
-  margin-bottom: 20px;
+.navigateBtn:hover,
+.navigateBtn:focus {
+  background-color: rgb(17, 189, 55);
+  color: #fff;
+  transform: scale(1.1);
+  transition: all 250ms;
 }
